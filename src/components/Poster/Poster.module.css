@@ -1,0 +1,22 @@
+.poster {
+    flex-basis: calc(33.3% - 16px);
+    height: 560px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 2/3;
+}
+.title {
+    color: #E5E5E5;
+}
+@media screen and (max-width: 425px) {
+    .poster {
+        flex-basis: calc(50% - 16px);
+        height: 300px;
+    }
+}
